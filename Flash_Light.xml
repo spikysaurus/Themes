@@ -32,14 +32,14 @@
         gizmo_view_align="#ffffff"
         gizmo_a="#4da84d"
         gizmo_b="#a33535"
-        icon_scene="#edededff"
-        icon_collection="#f4f4f4ff"
-        icon_object="#ee9e5dff"
-        icon_object_data="#00d4a3ff"
-        icon_modifier="#84b8ffff"
-        icon_shading="#ea7581ff"
+        icon_scene="#ffffffff"
+        icon_collection="#ffffffff"
+        icon_object="#ffffffff"
+        icon_object_data="#ffffffff"
+        icon_modifier="#ffffffff"
+        icon_shading="#ffffffff"
         icon_folder="#e3c16eff"
-        icon_autokey="#ab3c48ff"
+        icon_autokey="#ffff00ff"
         icon_border_intensity="0.7"
         >
         <wcol_regular>
@@ -60,17 +60,17 @@
         </wcol_regular>
         <wcol_tool>
           <ThemeWidgetColors
-            outline="#4d4d4d00"
+            outline="#5680c280"
             outline_sel="#3d3d3dff"
-            inner="#ece9d8ff"
+            inner="#ffffffff"
             inner_sel="#5680c2ff"
             item="#191919ff"
             text="#333333"
             text_sel="#ffffff"
-            show_shaded="FALSE"
+            show_shaded="TRUE"
             shadetop="0"
-            shadedown="-5"
-            roundness="0.4"
+            shadedown="-17"
+            roundness="0.5"
             >
           </ThemeWidgetColors>
         </wcol_tool>
@@ -190,7 +190,7 @@
           <ThemeWidgetColors
             outline="#9cadc0ff"
             outline_sel="#3d3d3dff"
-            inner="#80808080"
+            inner="#cfcdbeff"
             inner_sel="#5680c2ff"
             item="#333333ff"
             text="#333333"
@@ -302,7 +302,7 @@
           <ThemeWidgetColors
             outline="#00000000"
             outline_sel="#3d3d3d00"
-            inner="#00000000"
+            inner="#658ac400"
             inner_sel="#5680c2e6"
             item="#ffffff8f"
             text="#333333"
@@ -405,7 +405,7 @@
         <asset_shelf>
           <ThemeRegionsAssetShelf
             back="#ece9d8ff"
-            header_back="#adadadff"
+            header_back="#ece9d8ff"
             >
           </ThemeRegionsAssetShelf>
         </asset_shelf>
@@ -753,7 +753,7 @@
         >
         <space>
           <ThemeSpaceGeneric
-            back="#cfcdbe"
+            back="#ece9d8"
             title="#181818"
             text="#000000"
             text_hi="#ffffff"
@@ -989,7 +989,7 @@
             title="#ffffff"
             text="#ffffff"
             text_hi="#ffffff"
-            header="#999999ff"
+            header="#9cadbfff"
             header_text="#1a1a1a"
             header_text_hi="#ffffff"
             >
